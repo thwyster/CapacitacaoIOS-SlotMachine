@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlotMachine" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-Mn-2eh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8h-Ld-Pwp" userLabel="ViewDasFigurinhas">
+                                <rect key="frame" x="16" y="289.5" width="343" height="88"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slot1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Flt-fN-a0c">
+                                        <rect key="frame" x="127" y="0.0" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slot3.png" translatesAutoresizingMaskIntoConstraints="NO" id="rfS-GC-yN2">
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slot2.png" translatesAutoresizingMaskIntoConstraints="NO" id="lye-80-Pl4">
+                                        <rect key="frame" x="255" y="0.0" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="Vep-ji-4pt"/>
+                                    <constraint firstAttribute="width" constant="343" id="cJT-nm-WWy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztE-YO-02c" userLabel="ViewDeBaixo">
+                                <rect key="frame" x="0.0" y="378" width="375" height="289"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nO-ON-nB2">
+                                        <rect key="frame" x="108.5" y="124.5" width="158" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="158" id="Fec-LT-Anw"/>
+                                            <constraint firstAttribute="height" constant="40" id="lYa-yZ-I0H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <state key="normal" title="GET LUCKY !!!"/>
+                                        <connections>
+                                            <action selector="btnGetLucky:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Om-a4-2Pt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4nO-ON-nB2" firstAttribute="centerY" secondItem="ztE-YO-02c" secondAttribute="centerY" id="OHx-xB-39b"/>
+                                    <constraint firstItem="4nO-ON-nB2" firstAttribute="centerX" secondItem="ztE-YO-02c" secondAttribute="centerX" id="jjb-0u-0xA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5o-uf-0ic" userLabel="ViewDeCima">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="289"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SlotTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Exz-mo-O8O">
+                                        <rect key="frame" x="33" y="91" width="309" height="107"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="107" id="NLR-iG-og3"/>
+                                            <constraint firstAttribute="width" constant="309" id="o1Q-Cn-M9s"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Exz-mo-O8O" firstAttribute="centerY" secondItem="l5o-uf-0ic" secondAttribute="centerY" id="33w-WV-9V8"/>
+                                    <constraint firstItem="Exz-mo-O8O" firstAttribute="centerX" secondItem="l5o-uf-0ic" secondAttribute="centerX" id="ujf-AD-UYv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ztE-YO-02c" firstAttribute="top" secondItem="O8h-Ld-Pwp" secondAttribute="bottom" constant="0.5" id="2g6-cL-4Sb"/>
+                            <constraint firstItem="wpi-Mn-2eh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4Yl-y0-Jwc"/>
+                            <constraint firstAttribute="bottom" secondItem="wpi-Mn-2eh" secondAttribute="bottom" id="Fsh-AA-PnX"/>
+                            <constraint firstItem="O8h-Ld-Pwp" firstAttribute="top" secondItem="l5o-uf-0ic" secondAttribute="bottom" constant="0.5" id="G1Y-nw-5i9"/>
+                            <constraint firstItem="ztE-YO-02c" firstAttribute="top" secondItem="O8h-Ld-Pwp" secondAttribute="bottom" constant="0.5" id="Iz7-DO-pPK"/>
+                            <constraint firstItem="l5o-uf-0ic" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JID-Ia-lFB"/>
+                            <constraint firstItem="wpi-Mn-2eh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="REi-MM-Ixq"/>
+                            <constraint firstItem="O8h-Ld-Pwp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YFv-x1-OAF"/>
+                            <constraint firstItem="l5o-uf-0ic" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cu3-AZ-9ZK"/>
+                            <constraint firstAttribute="trailing" secondItem="l5o-uf-0ic" secondAttribute="trailing" id="eEf-by-lj9"/>
+                            <constraint firstAttribute="trailing" secondItem="ztE-YO-02c" secondAttribute="trailing" id="g5Z-YH-X01"/>
+                            <constraint firstItem="O8h-Ld-Pwp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iB8-k7-StD"/>
+                            <constraint firstItem="ztE-YO-02c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nfg-jT-cV5"/>
+                            <constraint firstAttribute="trailing" secondItem="wpi-Mn-2eh" secondAttribute="trailing" id="tY5-fC-UdS"/>
+                            <constraint firstAttribute="bottom" secondItem="ztE-YO-02c" secondAttribute="bottom" id="vOV-Tj-OEQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="slotA" destination="lye-80-Pl4" id="hOr-KI-NJ3"/>
+                        <outlet property="slotB" destination="Flt-fN-a0c" id="U1A-Pa-wOq"/>
+                        <outlet property="slotC" destination="rfS-GC-yN2" id="83O-kO-7gD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.80000000000001" y="89.505247376311857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SlotTitle.png" width="680" height="130"/>
+        <image name="slot1.png" width="166" height="166"/>
+        <image name="slot2.png" width="166" height="166"/>
+        <image name="slot3.png" width="166" height="166"/>
+        <image name="wallpaper.jpg" width="750" height="1334"/>
+    </resources>
+</document>
