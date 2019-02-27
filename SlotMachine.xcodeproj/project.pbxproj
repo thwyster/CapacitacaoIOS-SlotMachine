@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5702528B2227459C003154B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5702528A2227459C003154B6 /* Assets.xcassets */; };
 		570324B422249EBF00DC67C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570324B322249EBF00DC67C4 /* AppDelegate.swift */; };
 		570324B622249EBF00DC67C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570324B522249EBF00DC67C4 /* ViewController.swift */; };
 		570324B922249EBF00DC67C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570324B722249EBF00DC67C4 /* Main.storyboard */; };
-		570324BB22249EC100DC67C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570324BA22249EC100DC67C4 /* Assets.xcassets */; };
 		570324BE22249EC100DC67C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570324BC22249EC100DC67C4 /* LaunchScreen.storyboard */; };
 		570324C922249EC100DC67C4 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570324C822249EC100DC67C4 /* SlotMachineTests.swift */; };
 		570324D422249EC100DC67C4 /* SlotMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570324D322249EC100DC67C4 /* SlotMachineUITests.swift */; };
@@ -45,11 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5702528A2227459C003154B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		570324B022249EBF00DC67C4 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		570324B322249EBF00DC67C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		570324B522249EBF00DC67C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		570324B822249EBF00DC67C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		570324BA22249EC100DC67C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		570324BD22249EC100DC67C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		570324BF22249EC100DC67C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570324C422249EC100DC67C4 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +123,7 @@
 				570324B322249EBF00DC67C4 /* AppDelegate.swift */,
 				570324B522249EBF00DC67C4 /* ViewController.swift */,
 				570324B722249EBF00DC67C4 /* Main.storyboard */,
-				570324BA22249EC100DC67C4 /* Assets.xcassets */,
+				5702528A2227459C003154B6 /* Assets.xcassets */,
 				570324BC22249EC100DC67C4 /* LaunchScreen.storyboard */,
 				570324BF22249EC100DC67C4 /* Info.plist */,
 			);
@@ -274,10 +274,10 @@
 				570324F22224A03000DC67C4 /* slot3 in Resources */,
 				570324BE22249EC100DC67C4 /* LaunchScreen.storyboard in Resources */,
 				570324F62224A03000DC67C4 /* slot5 in Resources */,
+				5702528B2227459C003154B6 /* Assets.xcassets in Resources */,
 				570324EE2224A03000DC67C4 /* slot1 in Resources */,
 				570324F72224A03000DC67C4 /* slot7 in Resources */,
 				570324F32224A03000DC67C4 /* SlotTitle.png in Resources */,
-				570324BB22249EC100DC67C4 /* Assets.xcassets in Resources */,
 				570324F12224A03000DC67C4 /* slot6 in Resources */,
 				570324B922249EBF00DC67C4 /* Main.storyboard in Resources */,
 				570324EF2224A03000DC67C4 /* slot2 in Resources */,
